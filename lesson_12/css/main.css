@@ -1,0 +1,162 @@
+/*удалить по окончании*/
+.row > * {
+  border: 1px solid #000;
+}
+.row {
+  border: 1px solid #f60000;
+}
+/*Colors*/
+/*базовые настройки*/
+html {
+  font-size: 10px;
+}
+button:focus,
+input:focus,
+a:focus {
+  outline: none;
+}
+.button {
+  background-color: #fdb303;
+  color: #fff;
+  padding: 1rem 3rem;
+  text-transform: uppercase;
+  border-radius: 8px;
+  border: none;
+  font-size: 1.2rem;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.button:hover {
+  cursor: pointer;
+  background-color: #e5a202;
+}
+/*Типография*/
+section {
+  padding: 10rem 0;
+  /*1rem=10px,(относительно размера шрифта)*/
+}
+/*main*/
+.main {
+  padding: 3rem 0 0 0;
+  background: #ffffff url(../img/fon.jpg) center center no-repeat;
+  /*Главная форма*/
+}
+.main-content {
+  margin-top: 10rem;
+}
+.main-content h1 {
+  text-transform: uppercase;
+  font-style: 4rem;
+  font-weight: 700;
+  margin-bottom: 4rem;
+}
+.main-content p {
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin-bottom: 4rem;
+}
+.main-content span {
+  display: inline-block;
+  padding: 2rem 3rem;
+  background-color: #70c849;
+  font-size: 1.8rem;
+  color: #fff;
+  text-align: center;
+}
+.main-content span strong {
+  font-style: 3rem;
+}
+.main-title .trigger {
+  font-size: 2rem;
+  font-weight: 700;
+  display: block;
+  margin-top: 3rem;
+}
+.main-form {
+  background-color: #fff;
+  padding: 4rem 3.5rem;
+  text-align: center;
+  /*заголовок в форме*/
+  /*подписи к полям*/
+}
+.main-form-header {
+  font-size: 1.8rem;
+  /*поле для ввода*/
+  margin-bottom: 4rem;
+}
+.main-form-input {
+  display: block;
+  width: 100%;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  padding: 1.5rem;
+  margin: 2rem 0;
+}
+.main-form label {
+  display: inline-block;
+  background-color: #fff;
+  padding: 0.5rem;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+  font-size: 1.3rem;
+}
+.main-form small {
+  display: block;
+  margin-top: 1.4rem;
+}
+.main-form-btn {
+  display: block;
+  width: 100%;
+  padding: 1.5rem;
+}
+.phon-link {
+  display: inline-block;
+  color: #1a1820;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+/*Оформление секции с преимуществами*/
+.section-header {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 7rem;
+}
+.features-block {
+  text-align: center;
+}
+.features-img img {
+  display: block;
+  margin: 0 auto;
+}
+.slick-active {
+  outline: none;
+}
+@media (max-width: 992px) {
+  .main {
+    background-position: top right;
+  }
+  .main-content {
+    margin-top: 2rem;
+  }
+  .main-title {
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  .logo {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .header-btn {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .main-title h1 {
+    font-size: 1.9rem;
+  }
+}
